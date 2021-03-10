@@ -106,7 +106,7 @@ Create a Google account and create a connected app by visiting [Google cloud pla
 
 ### Config.toml 
 
-#### ballerinax/slack related configurations 
+#### ballerinax/sfdc related configurations 
 
 ep_url = ""  
 sf_client_id = ""  
