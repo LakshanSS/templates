@@ -99,7 +99,7 @@ Create a Google account and create a connected app by visiting [Google cloud pla
 1. Create new spreadsheet.
 2. Rename the sheet if you want.
 3. Get the ID of the spreadsheet.  
-![alt text](../sfdc_record_to_ghseet/docs/images/spreadsheet_id_example.jpeg?raw=true)
+![alt text](../sfdc_record_to_gsheet/docs/images/spreadsheet_id_example.jpeg?raw=true)
 5. Get the sheet name
 6. Once you obtained all configurations, Create `Config.toml` in root directory.
 7. Replace "" in the `Config.toml` file with your data.
@@ -134,7 +134,7 @@ sheets_name = ""
 `$ bal build`. 
 
 2. Then you can run the integration binary with the following command. 
-`$ bal run /target/bin/sfdc_update_record_to_ghseet.jar`. 
+`$ bal run target/bin/sfdc_update_record_to_gsheet.jar`. 
 
 Successful listener startup will print following in the console.
 ```
